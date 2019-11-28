@@ -1,0 +1,101 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "1e8fc8a7-a689-47a6-a358-185634914dfd": {
+        "id": "1e8fc8a7-a689-47a6-a358-185634914dfd",
+        "parent": null,
+        "name": "haha",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "8a2fb9a7-f4a2-4fe9-a209-888f3ec45d9a"
+        ],
+        "isRemovable": false,
+        "filePath": "haha"
+      },
+      "8a2fb9a7-f4a2-4fe9-a209-888f3ec45d9a": {
+        "id": "8a2fb9a7-f4a2-4fe9-a209-888f3ec45d9a",
+        "parent": "1e8fc8a7-a689-47a6-a358-185634914dfd",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "haha/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1hahatestany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "rootNode": "1e8fc8a7-a689-47a6-a358-185634914dfd",
+    "openFiles": [
+      "8a2fb9a7-f4a2-4fe9-a209-888f3ec45d9a"
+    ],
+    "currentFileId": "8a2fb9a7-f4a2-4fe9-a209-888f3ec45d9a",
+    "resources": {
+      "apigusEast1hahatestany": {
+        "name": "apigusEast1hahatestany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 0,
+          "apiName": "haha",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "test",
+          "resourcePath": "/test",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "test",
+          "mode": 0
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "haha",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1574918343913
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "haha",
+      "url": "https://github.com/Kumudikatest/haha"
+    }
+  }
+}
